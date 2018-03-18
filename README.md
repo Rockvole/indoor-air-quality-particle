@@ -1,12 +1,7 @@
-indoor-air-quality-dashboard
+indoor-air-quality-particle
 ==============================
 
-LAMP based Indoor Air Quality Web Dashboard for the Particle Photon
-
-### Consists of:
-1. PHP pages to add a device and view graphs and a calendar showing when air quality is poor
-2. Firmware to send the sensor data to the web pages
-3. Scripts and instructions to set-up the website and install on Ubuntu 14.04
+Collection of hardware and firmware for the Particle Photon - firmware sends data to the [indoor-air-quality-dashboard](https://github.com/Rockvole/indoor-air-quality-dashboard) project.
 
 ### Supported Sensors
 |Sensor         |Type                                  |
@@ -20,7 +15,6 @@ LAMP based Indoor Air Quality Web Dashboard for the Particle Photon
 ### Directories
 |Directory           |Description                                                      |
 |--------------------|-----------------------------------------------------------------|
-|ancillary           |Installation and setup instructions                              |
 |breadboard          |Diagram to make your own IAQ Monitor on a breadboard             |
 |dht22               |Spark Core firmware for dht22 temperature / humidity sensor      |
 |documentation       |Documentation regarding hardware recommendations for V2 of the indoor air quality shield      |
@@ -33,7 +27,6 @@ LAMP based Indoor Air Quality Web Dashboard for the Particle Photon
 |hardware-case       |PCB Schematics and assembley photos of the final hardware in an off-the-shelf enclosure |
 |libs                |firmware libraries for the sensors                               |
 |sht15               |Particle Photon & Core firmware for sht15 temperature / humidity sensor      |
-|www                 |PHP Web pages to view graphs of collected data                   |
 
 ### History
-<a href="http://community.spark.io/t/custom-shield-indoor-air-quality-monitor/121" title="Development evolution of the hardware"><img src="particle.png"/></a>
+<a href="https://community.particle.io/t/custom-shield-indoor-air-quality-monitor/121" title="Development evolution of the hardware"><img src="particle.png"/></a>
